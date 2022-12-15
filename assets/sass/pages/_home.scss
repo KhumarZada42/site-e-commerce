@@ -1,0 +1,311 @@
+button {
+    cursor: pointer;
+}
+
+.handmade {
+    background-image: url("../imgs/home-bg-first.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+
+    .home_container {
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 96px;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .btn_head {
+            color: #4d2c57;
+            height: 55px;
+            width: 150px;
+            font-size: 16px;
+            border-color: transparent;
+            margin: 40px;
+
+        }
+
+        .btn_head:hover {
+            background-color: rgb(222, 222, 222);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+
+
+
+.bestsellers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        font-weight: bold;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        color: #4d2c57;
+    }
+
+    .bestseller_card {
+        display: flex;
+        flex-direction: row;
+        min-width: 70%;
+        justify-content: space-around;
+        gap: 15px;
+
+        .bestsellers_cards_text {
+            h3 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 18px;
+                padding: 15px;
+            }
+
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #4d2c57;
+        }
+    }
+
+    .buy_btn {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        button {
+
+            padding: 15px 40px;
+            border: 2px #4d2c57 solid;
+            background-color: transparent;
+            color: #4d2c57;
+            font-size: 16px;
+
+        }
+
+        button:hover {
+            background-color: #4d2c57;
+            color: white;
+        }
+    }
+}
+
+.homeDecor {
+    background-image: url("../imgs/SECTION3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    margin-bottom: 100px;
+
+    .homeDecorItems {
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 96px;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .btn_sec3 {
+            color: #4d2c57;
+            height: 55px;
+            width: 150px;
+            font-size: 16px;
+            border-color: transparent;
+            margin: 40px;
+        }
+
+        .btn_sec3:hover {
+            background-color: rgb(222, 222, 222);
+        }
+    }
+}
+
+.learnMore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    .learnMoreCard {
+        display: flex;
+        flex-direction: row;
+        min-width: 70%;
+        justify-content: space-around;
+        gap: 15px;
+        margin-top: 20px;
+
+        .learnMoreCardText {
+
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #4d2c57;
+            margin-top: 20px;
+
+            h3 {
+                font-size: 32px;
+                margin-top: 20px;
+
+            }
+
+            p {
+                font-size: 20px;
+                margin-top: 20px;
+
+            }
+
+
+        }
+    }
+
+    .learnMoreBTN {
+        padding: 15px 40px;
+        border: 2px #4d2c57 solid;
+        background-color: transparent;
+        color: #4d2c57;
+        font-size: 16px;
+        margin-top: 20px;
+
+    }
+
+    .learnMoreBTN:hover {
+        background-color: #4d2c57;
+        color: white;
+    }
+}
+
+.signUp {
+    background-image: url("../imgs/sec5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    margin-top: 100px;
+
+    .signUpContainer {
+        color: white;
+        text-align: center;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        h2 {
+            font-size: 90px;
+            font-weight: normal;
+            padding: 40px;
+        }
+
+        .email {
+            width: 380px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            box-sizing: border-box;
+            border-color: transparent;
+            opacity: 0.7;
+
+        }
+
+        .submit {
+            color: #4d2c57;
+            height: 55px;
+            width: 150px;
+            font-size: 16px;
+            border-color: transparent;
+            margin: 15px;
+        }
+
+        .submit:hover {
+            background-color: rgb(222, 222, 222);
+        }
+    }
+}
+
+
+.followUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        font-weight: bold;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        color: #4d2c57;
+    }
+
+    .followUsCard {
+        display: flex;
+        flex-direction: row;
+        min-width: 70%;
+        justify-content: space-around;
+        gap: 15px;
+
+
+    }
+
+    a {
+        display: flex;
+        padding: 50px;
+        margin-bottom: 50px;
+        color: #4d2c57;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,110 @@
+nav {
+
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    box-shadow: rgb(182, 182, 182) 0px 1px 10px;
+
+
+    .nav_container {
+        padding: 50px;
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        justify-content: space-between;
+
+        .logo_bar {
+            display: flex;
+            align-items: center;
+
+            .mina {
+                padding-left: 30px;
+            }
+        }
+
+        .menu {
+            display: flex;
+        }
+
+        .first_menu {
+            gap: 50px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+
+
+    ul {
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        li {
+            font-weight: 400;
+            font-style: normal;
+
+            i {
+
+                transition: transform .2s ease-in-out;
+            }
+
+            i:hover {
+                transform: rotate(180deg);
+            }
+
+
+        }
+
+    }
+
+    .hamburger_menu {
+        display: none;
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cart {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        align-items: center;
+
+        .hamburger_menu {
+            padding: 10px;
+            display: block;
+            align-items: center;
+
+        }
+
+        .nav_container {
+            align-items: center;
+
+            .menu_container {
+                .menu {
+                    .first_menu {
+                        display: none;
+
+                    }
+                }
+            }
+        }
+    }
+}
