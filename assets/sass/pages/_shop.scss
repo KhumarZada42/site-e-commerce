@@ -1,0 +1,140 @@
+.shop {
+    background-image: url("../imgs/shopHead.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+
+    .shopContainer {
+        color: white;
+        text-align: center;
+        display: flex;
+
+        flex-direction: column;
+
+        h1 {
+            font-size: 96px;
+        }
+    }
+}
+
+.shopping {
+
+    .refineSort {
+        color: rgb(110, 110, 110);
+        display: flex;
+        justify-content: flex-end;
+        width: 70%;
+        align-items: baseline;
+        padding: 50px;
+        gap: 10px;
+        
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 200px;
+
+    .shoppingCard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+
+        .card_1 , .card_2 , .card_3{
+            cursor: pointer;
+
+            &:hover h3 {
+                color: rgb(62, 0, 231);
+
+            }
+
+            &:hover img {
+                transform: scale(1.1);
+                transition: 0.3s;
+            }
+        }
+
+        .cardZoom {
+            overflow: hidden;
+
+            img {
+                max-width: 100%;
+                width: 400px;
+
+            }
+        }
+
+        .shopCardsText {
+
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                font-size: 20px;
+                font-weight: normal;
+            }
+
+            p {
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+
+        }
+    }
+}
+
+.shopITEMS {
+    color: rgb(110, 110, 110);
+    .sec2ICON {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 20px;
+        margin: 50px;
+
+        .searchIcon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .bagIcon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+}
+
+.searchIcon:hover {
+    cursor: pointer;
+    color: rgb(62, 0, 231);
+}
+
+.bagIcon:hover {
+    cursor: pointer;
+    color: rgb(62, 0, 231);
+}
+
+.refineSort span:hover {
+    cursor: pointer;
+    color: rgb(62, 0, 231);
+}
+.firstROW , .secondROW{
+    margin-bottom: 30px;
+}

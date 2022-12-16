@@ -48,6 +48,21 @@ nav {
         a:hover {
             text-decoration: underline;
         }
+        .inner{
+            position: absolute;
+            display: none;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px 20px;
+        }
+        #about-a:hover{
+            .inner{
+                display: block;
+            }
+            i {
+                transform: rotate(180deg);
+            }
+        }
 
         li {
             font-weight: 400;
@@ -58,9 +73,7 @@ nav {
                 transition: transform .2s ease-in-out;
             }
 
-            i:hover {
-                transform: rotate(180deg);
-            }
+            
 
 
         }

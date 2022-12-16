@@ -55,15 +55,25 @@ nav ul {
 nav ul a:hover {
   text-decoration: underline;
 }
+nav ul .inner {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+nav ul #about-a:hover .inner {
+  display: block;
+}
+nav ul #about-a:hover i {
+  transform: rotate(180deg);
+}
 nav ul li {
   font-weight: 400;
   font-style: normal;
 }
 nav ul li i {
   transition: transform 0.2s ease-in-out;
-}
-nav ul li i:hover {
-  transform: rotate(180deg);
 }
 nav .hamburger_menu {
   display: none;
@@ -97,7 +107,7 @@ nav .hamburger_menu {
 footer {
   width: 100%;
   height: 250px;
-  background-color: #F6F7F6;
+  background-color: #e6e6e6;
   display: flex;
   align-items: flex-start;
 }
@@ -431,15 +441,25 @@ nav ul {
 nav ul a:hover {
   text-decoration: underline;
 }
+nav ul .inner {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+nav ul #about-a:hover .inner {
+  display: block;
+}
+nav ul #about-a:hover i {
+  transform: rotate(180deg);
+}
 nav ul li {
   font-weight: 400;
   font-style: normal;
 }
 nav ul li i {
   transition: transform 0.2s ease-in-out;
-}
-nav ul li i:hover {
-  transform: rotate(180deg);
 }
 nav .hamburger_menu {
   display: none;
@@ -469,4 +489,121 @@ nav .hamburger_menu {
   nav .nav_container .menu_container .menu .first_menu {
     display: none;
   }
+}
+.shop {
+  background-image: url("../imgs/shopHead.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.shop .shopContainer {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.shop .shopContainer h1 {
+  font-size: 96px;
+}
+
+.shopping {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.shopping .refineSort {
+  color: rgb(110, 110, 110);
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  align-items: baseline;
+  padding: 50px;
+  gap: 10px;
+}
+.shopping .shoppingCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+.shopping .shoppingCard .card_1, .shopping .shoppingCard .card_2, .shopping .shoppingCard .card_3 {
+  cursor: pointer;
+}
+.shopping .shoppingCard .card_1:hover h3, .shopping .shoppingCard .card_2:hover h3, .shopping .shoppingCard .card_3:hover h3 {
+  color: rgb(62, 0, 231);
+}
+.shopping .shoppingCard .card_1:hover img, .shopping .shoppingCard .card_2:hover img, .shopping .shoppingCard .card_3:hover img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.shopping .shoppingCard .cardZoom {
+  overflow: hidden;
+}
+.shopping .shoppingCard .cardZoom img {
+  max-width: 100%;
+  width: 400px;
+}
+.shopping .shoppingCard .shopCardsText {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shopping .shoppingCard .shopCardsText h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.shopping .shoppingCard .shopCardsText p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.shopITEMS {
+  color: rgb(110, 110, 110);
+}
+.shopITEMS .sec2ICON {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px;
+}
+.shopITEMS .sec2ICON .searchIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.shopITEMS .sec2ICON .bagIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+  color: rgb(62, 0, 231);
+}
+
+.bagIcon:hover {
+  cursor: pointer;
+  color: rgb(62, 0, 231);
+}
+
+.refineSort span:hover {
+  cursor: pointer;
+  color: rgb(62, 0, 231);
+}
+
+.firstROW, .secondROW {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
