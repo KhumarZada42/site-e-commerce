@@ -1,0 +1,115 @@
+.About {
+    background-image: url("../imgs/about.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+
+    .AboutContainer {
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 96px;
+        }
+    }
+}
+
+
+.infoAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        font-weight: bold;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: #4d2c57;
+    }
+
+
+}
+
+.AlexLaura {
+    background-color: #f6f7f6;
+
+    .AlexLauraAbout {
+        width: 1500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .AlexLauraTXT {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            p {
+                width: 500px;
+                margin-top: 20px;
+                font-size: 18px;
+                color: #4d2c57;
+            }
+
+            h2 {
+                font-size: 48px;
+                color: #4d2c57;
+            }
+        }
+    }
+}
+
+
+.Sus {
+    background-color: #fd925c;
+
+    .Sustainability {
+        width: 1300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .SusTXT {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            p {
+                width: 500px;
+                margin-top: 20px;
+                font-size: 18px;
+                color: #ffffff;
+            }
+
+            h2 {
+                font-size: 48px;
+                color: #ffffff;
+            }
+            .SusBTN {
+                color: #4d2c57;
+                height: 55px;
+                width: 150px;
+                font-size: 16px;
+                border-color: transparent;
+                margin: 40px;
+            
+            }
+            
+            .SusBTN:hover {
+                background-color: rgb(222, 222, 222);
+            }
+        }
+    }
+}

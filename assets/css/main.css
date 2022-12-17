@@ -14,6 +14,10 @@ ul, ol, a {
   font-family: "Poppins", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 nav {
   width: 100%;
   height: 70px;
@@ -141,10 +145,6 @@ footer .footerContainer .footerLink ul {
 footer .footerContainer .footerLink ul li {
   font-weight: 400;
   font-style: normal;
-}
-
-button {
-  cursor: pointer;
 }
 
 .handmade {
@@ -400,6 +400,99 @@ button {
   text-decoration: underline;
 }
 
+.Contact {
+  background-image: url("../imgs/Contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.Contact .ContactContainer {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.Contact .ContactContainer h1 {
+  font-size: 96px;
+  font-weight: normal;
+}
+
+.CUContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.CUContainer .left {
+  margin: 200px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.CUContainer .left .Headquarters {
+  margin-bottom: 50px;
+}
+.CUContainer .left h3 {
+  font-size: 32px;
+  color: #4d2c57;
+}
+.CUContainer .left p {
+  margin: 20px 0 20px;
+  font-size: 18px;
+  color: #4d2c57;
+}
+.CUContainer .right {
+  margin: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.CUContainer .right .Inquiries input {
+  width: 600px;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border-color: transparent;
+  background-color: #f1f1f1;
+}
+.CUContainer .right .Inquiries .row {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.CUContainer .right .Inquiries h3 {
+  font-size: 32px;
+  color: #4d2c57;
+}
+.CUContainer .right .Inquiries p {
+  margin: 20px 0 20px;
+  font-size: 18px;
+  color: #4d2c57;
+}
+.CUContainer .right .Inquiries span {
+  font-size: 18px;
+}
+.CUContainer .right .Inquiries .message {
+  height: 100px;
+}
+.CUContainer .right .Inquiries .submitbtn {
+  padding: 15px 40px;
+  border: 2px #4d2c57 solid;
+  background-color: transparent;
+  color: #4d2c57;
+  font-size: 16px;
+}
+.CUContainer .right .Inquiries .submitbtn:hover {
+  background-color: #4d2c57;
+  color: white;
+}
+
 nav {
   width: 100%;
   height: 70px;
@@ -606,4 +699,191 @@ nav .hamburger_menu {
 
 .firstROW, .secondROW {
   margin-bottom: 30px;
+}
+
+.About {
+  background-image: url("../imgs/about.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 65vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.About .AboutContainer {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.About .AboutContainer h1 {
+  font-size: 96px;
+}
+
+.infoAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.infoAbout span {
+  font-weight: bold;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #4d2c57;
+}
+
+.AlexLaura {
+  background-color: #f6f7f6;
+}
+.AlexLaura .AlexLauraAbout {
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.AlexLaura .AlexLauraAbout .AlexLauraTXT {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.AlexLaura .AlexLauraAbout .AlexLauraTXT p {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #4d2c57;
+}
+.AlexLaura .AlexLauraAbout .AlexLauraTXT h2 {
+  font-size: 48px;
+  color: #4d2c57;
+}
+
+.Sus {
+  background-color: #fd925c;
+}
+.Sus .Sustainability {
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Sus .Sustainability .SusTXT {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.Sus .Sustainability .SusTXT p {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.Sus .Sustainability .SusTXT h2 {
+  font-size: 48px;
+  color: #ffffff;
+}
+.Sus .Sustainability .SusTXT .SusBTN {
+  color: #4d2c57;
+  height: 55px;
+  width: 150px;
+  font-size: 16px;
+  border-color: transparent;
+  margin: 40px;
+}
+.Sus .Sustainability .SusTXT .SusBTN:hover {
+  background-color: rgb(222, 222, 222);
+}
+
+.SusPage {
+  background-image: url("../imgs/sec5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.SusPage .SusCont {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.SusPage .SusCont h1 {
+  font-size: 96px;
+}
+
+.infoSUS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.infoSUS span {
+  font-weight: bold;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #4d2c57;
+}
+
+.Ethos {
+  background-color: #f6f7f6;
+}
+.Ethos .EthosAbout {
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Ethos .EthosAbout .EthosTXT {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.Ethos .EthosAbout .EthosTXT p {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #4d2c57;
+}
+.Ethos .EthosAbout .EthosTXT h2 {
+  font-size: 48px;
+  color: #4d2c57;
+}
+
+.Materials {
+  background-color: #fd925c;
+}
+.Materials .MaterialsCon {
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Materials .MaterialsCon .MaterialsTXT {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.Materials .MaterialsCon .MaterialsTXT p {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.Materials .MaterialsCon .MaterialsTXT h2 {
+  font-size: 48px;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
